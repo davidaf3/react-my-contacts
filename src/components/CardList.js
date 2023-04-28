@@ -11,6 +11,7 @@ const CardList = ({ contacts }) => {
             name={contact.name["first"] + " " + contact.name["last"]}
             email={contact.email}
             phone={contact.cell}
+            contact={contact}
           />
         );
       })}
